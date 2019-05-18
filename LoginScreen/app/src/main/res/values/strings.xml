@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Login Screen</string>
+    <string name="header_text">Please login</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="button_text">LOGIN</string>
+    <string name="error_text">Invalid login credentials. Please try again.\n</string>
+</resources>
