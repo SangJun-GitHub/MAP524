@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherDetails">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cityTextView"
+        android:text="Ottawa, ON"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/currentTemperatureTextView"
+        android:layout_below="@id/cityTextView"
+        android:layout_marginTop="10dp"
+        android:text="@string/temperature_celsius"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highTemperatureTextView"
+        android:layout_below="@id/currentTemperatureTextView"
+        android:layout_marginTop="10dp"
+        android:text="@string/temperature_celsius"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lowTemperatureTextView"
+        android:layout_below="@id/highTemperatureTextView"
+        android:layout_marginTop="10dp"
+        android:text="@string/temperature_celsius"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weatherDescriptionTextView"
+        android:layout_below="@id/lowTemperatureTextView"
+        android:layout_marginTop="10dp"
+        android:text="Cloudy"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tomorrow"
+        android:id="@+id/tomorrowTextView"
+        android:layout_below="@id/weatherDescriptionTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tomorrowHighTemperatureTextView"
+        android:layout_below="@id/tomorrowTextView"
+        android:layout_marginTop="10dp"
+        android:text="@string/temperature_celsius"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tomorrowLowTemperatureTextView"
+        android:layout_below="@id/tomorrowHighTemperatureTextView"
+        android:layout_marginTop="10dp"
+        android:text="@string/temperature_celsius"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tomorrowWeatherDescriptionTextView"
+        android:layout_below="@id/tomorrowLowTemperatureTextView"
+        android:layout_marginTop="10dp"
+        android:text="Cloudy"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
