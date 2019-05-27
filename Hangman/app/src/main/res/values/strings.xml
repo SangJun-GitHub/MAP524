@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="nickname_hint">Please Enter Nickname</string>
+    <string name="title">H A N G M A N</string>
+    <string name="level_of_difficult">Please select the level of difficult</string>
+    <string name="easy">EASY</string>
+    <string name="normal">Normal</string>
+    <string name="hard">Hard</string>
+    <string name="continue_text">Continue</string>
+    <string name="exit">Exit</string>
+    <string name="submit">Submit</string>
+    <string name="hint">Hint</string>
+    <string name="question">F R U I T</string>
+    <string name="error_text" />
+    <string name="thx">Thank you for playing Hangman game</string>
+</resources>

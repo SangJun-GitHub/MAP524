@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/question"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/hint"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/answer"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/hint"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/answer"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/hint"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/submit"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/errorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hint"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/error_text"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:visibility="invisible"/>
+</RelativeLayout>

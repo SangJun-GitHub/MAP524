@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/title"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nickNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerTextView"
+        android:layout_marginTop="100dp"
+        android:textSize="24sp"
+        android:inputType="textPersonName"
+        android:hint="@string/nickname_hint" />
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nickNameEditText"
+        android:layout_marginTop="50dp"
+        android:textSize="24sp"
+        android:text="@string/sign_in"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorWhite"/>
+
+</RelativeLayout>
