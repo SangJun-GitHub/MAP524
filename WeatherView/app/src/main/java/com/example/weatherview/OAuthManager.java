@@ -14,8 +14,8 @@ import javax.crypto.spec.SecretKeySpec;
 
 class OAuthManager {
 
-    private final static String consumerKey = "dj0yJmk9UGE3Tk83Zk54MXlLJnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PWU2";
-    private final static String consumerSecret = "b70b7b1be8e0e80dcf6164c10bba624225ed0807";
+    private final static String consumerKey = "";
+    private final static String consumerSecret = "";
 
     static String GetAuthorization(String url, String city) throws UnsupportedEncodingException {
 
