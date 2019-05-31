@@ -32,8 +32,8 @@ public class YahooApiManager {
 
     private JSONObject makeRequest() throws ApiException {
 
-        final String appId = "M4U8pp34";
-        final String baseUrl = "https://weather-ydn-yql.media.yahoo.com/forecastrss";
+        final String appId = "";
+        final String baseUrl = "";
 
         String urlString = baseUrl + "?location=" + city + "&format=json&u=c";
 
